@@ -1,0 +1,93 @@
+
+.navUlClass {
+  padding-left: 0px;
+}
+
+body {
+  background-color: #F0F0ECEE;
+  font-size: 15px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+button {
+  color: white;
+  background-color: #FF4850;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  width: auto;
+  font-size: 10px;
+  align-self: flex-end;
+  width: 100%;
+}
+
+button:hover {
+    color: #FF4850;
+    background-color: #CCC;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+
+a {
+  color: #000000;
+  float: left;
+  text-decoration: none;
+  padding: 2px 6px;
+  display: block;
+
+}
+
+p {
+  width: 100%;
+  font-weight: 400;
+}
+a:hover {
+    color: #FF4850;
+    background-color: #CCC;
+}
+
+ul  li{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .goAway {
+      display: none;
+  }
+  h1 {
+    font-weight: 600;
+    width: 50%;
+  }
+  p {
+    width: 50%;
+  }
+  body {
+    background-image: url("../images/bulldog.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  button {
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 20px;
+    width: auto;
+    font-size: 10px;
+    background-color: #FF4850;
+    align-self: flex-end;
+  }
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+  }
+
+
+}
